@@ -67,7 +67,7 @@ function DrawInfo(){
   if (ShowInfo){
     fill(0, 0, 0, 200);
     rect(20, 100, windowWidth - 45, windowHeight - 150);
-    textSize(22);
+    textSize(15);
     fill(255);
     const Information = `
       You can determinate creature's parameters by it's look. Length of the tail indicates age, the presence of a pompom at the end of the tail indicates laziness. From the pattern on the back, you can determinate food preferences
