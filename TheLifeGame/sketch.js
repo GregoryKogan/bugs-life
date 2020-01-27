@@ -861,7 +861,7 @@ function setup() {
   frameRate(60);
   pixelDensity(displayDensity());
   if (displayWidth / 4.29 > 150) Device = "Laptop";
-  else Device = "Phone";
+  //else Device = "Phone";
   SetUpUI();
 
   TimeScale = TimeScaleSlider.value();
