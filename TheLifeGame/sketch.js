@@ -79,19 +79,35 @@ function DrawInfo(){
     textSize(10);
     fill(255);
     const Information = `
-      You can determinate creature's parameters by it's look. Length of the tail indicates age, the presence of a pompom at the end of the tail indicates laziness. From the pattern on the back, you can determinate food preferences
+      You can determinate creature's parameters by it's look. Length of the tail indicates
+      age, the presence of a pompom at the end of the tail indicates laziness. From the
+      pattern on the back, you can determinate food preferences
       of a creature.
-      If it's a predator, it will have one ellipse on it's back, and it will be prependicular to the creature. If it's a herbivore, it will also have one ellipse on it's back, but it will be parallel to the creature.
-      If it's an omnivore, it will have both ellipses. Every creature has view radius, white radius is the largest distance a creature sees food and red one is the largest distance for creature to see other creatures.
-      If creature is lazy, when it doesn't see any food, it just stops and waits for something to happen. When creature is not moving, it spends less energy. If creature is not lazy, when there is no food in his white Radius
-      it goes to random point on the map, in ShowInsides mode this point appears to be a red dot.
+      If it's a predator, it will have one ellipse on it's back, and it will be
+      prependicular to the creature. If it's a herbivore, it will also have one ellipse
+      on it's back, but it will be parallel to the creature.
+      If it's an omnivore, it will have both ellipses. Every creature has view radius,
+      white radius is the largest distance a creature sees food and red one is the largest
+      distance for creature to see other creatures.
+      If creature is lazy, when it doesn't see any food, it just stops and waits for
+      something to happen. When creature is not moving, it spends less energy. If creature
+      is not lazy, when there is no food in his white Radius
+      it goes to random point on the map, in ShowInsides mode this point appears to be a red
+      dot.
       If creature is brave, it won't run from another creature if it can't hurt it.
       if creature is not brave, it will avoid any contacts with other creatures.
-      Player can change world's specifications such as radius of field or food spawning rate or type of camera and so on. You can see statistics of all creatures in right corner. This program at least tries to simulate evolution
-      in nature. If creature lives long enough withot being killed or dead becouse of hunger it dies anyway but makes random number of children. Children have alike specs with it's parent, but not exactly same, every child have
-      mutations. Every child has exact same color as his parent. You can change specs of exact creature by making camera type -> Following and clicking change button at the bottom of the screen. After that it will canhge color
+      Player can change world's specifications such as radius of field or food spawning rate
+       or type of camera and so on. You can see statistics of all creatures in right corner.
+       This program at least tries to simulate evolution
+      in nature. If creature lives long enough withot being killed or dead becouse of hunger
+      it dies anyway but makes random number of children. Children have alike specs with it's
+      parent, but not exactly same, every child have
+      mutations. Every child has exact same color as his parent. You can change specs of exact
+      creature by making camera type -> Following and clicking change button at the bottom of
+      the screen. After that it will canhge color
       to white.
-      If you press MakeBalancedSet button it spawns 7 preprogrammed creatures. All of them a different types of creatures and have very different specs.
+      If you press MakeBalancedSet button it spawns 7 preprogrammed creatures. All of them a
+      different types of creatures and have very different specs.
       If you press MakeRandomSet button it spawns random amount of creatures with random specs.
     `
     text(Information, 30, 130);
