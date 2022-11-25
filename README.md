@@ -1,4 +1,4 @@
-# Bugs-Life
+# [Bugs-Life](https://gregorykogan.github.io/Bugs-Life/)
 
 This is my first big project.
 This is simulation of how bugs live.
