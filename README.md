@@ -1,5 +1,7 @@
 # [Bugs-Life](https://gregorykogan.github.io/Bugs-Life/)
 
+<img width="1378" alt="image" src="https://github.com/GregoryKogan/Bugs-Life/assets/60318411/bf926251-2b37-4695-89d3-afcc92a6bbb8">
+
 This is my first big project.
 This is simulation of how bugs live.
 
